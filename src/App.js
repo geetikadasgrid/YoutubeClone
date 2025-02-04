@@ -13,6 +13,8 @@ import VideoPage from "./pages/VideoPage";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
+  const [videos, setVideos] = useState([]);
+
   const location = useLocation();
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(true);
 
@@ -30,6 +32,7 @@ function App() {
           setSearchQuery={setSearchQuery}
           searchQuery={searchQuery}
           toggleSidebar={toggleSidebar}
+          videos={videos}
         />
       </div>
 
@@ -41,7 +44,13 @@ function App() {
             {/* Main Route (Video Container) */}
             <Route
               path="/"
-              element={<VideoContainer searchQuery={searchQuery} />}
+              element={
+                <VideoContainer
+                  searchQuery={searchQuery}
+                  videos={videos}
+                  setVideos={setVideos}
+                />
+              }
             />
 
             {/* Video Player Route */}

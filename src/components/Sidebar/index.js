@@ -12,7 +12,7 @@ const Sidebar = ({ collapsed }) => {
   const [show, setShow] = useState(false);
   return (
     <aside
-      className={`${
+      className={`hidden sm:block ${
         collapsed ? "w-16" : "w-64"
       } bg-white shadow-md h-full flex flex-col transition-all duration-300 ease-out`}
     >
