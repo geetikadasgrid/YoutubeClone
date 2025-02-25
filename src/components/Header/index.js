@@ -5,9 +5,13 @@ import { CiSearch } from "react-icons/ci";
 import { AiFillHome, AiOutlineMenu } from "react-icons/ai";
 import { MdSubscriptions, MdVideoLibrary } from "react-icons/md";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import img from "../../assests/unnamed.png";
 =======
 >>>>>>> 52e8d2e (responsive is done)
+=======
+import img from "../../assests/unnamed.png";
+>>>>>>> ee4eec9 (responsive)
 
 const Header = ({ setSearchQuery, toggleSidebar }) => {
   const [isSearchActive, setIsSearchActive] = useState(false);
@@ -84,6 +88,7 @@ const Header = ({ setSearchQuery, toggleSidebar }) => {
             <IoMdNotifications style={{ fontSize: "25px" }} />
           </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <img src={img} alt="Profile" className="w-8 h-8 rounded-full" />
 =======
           <img
@@ -92,6 +97,9 @@ const Header = ({ setSearchQuery, toggleSidebar }) => {
             className="w-8 h-8 rounded-full"
           />
 >>>>>>> 52e8d2e (responsive is done)
+=======
+          <img src={img} alt="Profile" className="w-8 h-8 rounded-full" />
+>>>>>>> ee4eec9 (responsive)
         </div>
 
         {/* Mobile Search Bar */}
