@@ -4,14 +4,7 @@ import { BiCameraMovie } from "react-icons/bi";
 import { CiSearch } from "react-icons/ci";
 import { AiFillHome, AiOutlineMenu } from "react-icons/ai";
 import { MdSubscriptions, MdVideoLibrary } from "react-icons/md";
-<<<<<<< HEAD
-<<<<<<< HEAD
 import img from "../../assests/unnamed.png";
-=======
->>>>>>> 52e8d2e (responsive is done)
-=======
-import img from "../../assests/unnamed.png";
->>>>>>> ee4eec9 (responsive)
 
 const Header = ({ setSearchQuery, toggleSidebar }) => {
   const [isSearchActive, setIsSearchActive] = useState(false);
@@ -87,19 +80,7 @@ const Header = ({ setSearchQuery, toggleSidebar }) => {
           <button className="p-2 hover:bg-gray-100 rounded-full">
             <IoMdNotifications style={{ fontSize: "25px" }} />
           </button>
-<<<<<<< HEAD
-<<<<<<< HEAD
           <img src={img} alt="Profile" className="w-8 h-8 rounded-full" />
-=======
-          <img
-            src="https://yt3.ggpht.com/yti/ANjgQV86Fy6uxfLfBcuDpwPuBYASOZ7d4L1olXw4l2VfE90=s88-c-k-c0x00ffffff-no-rj-mo"
-            alt="Profile"
-            className="w-8 h-8 rounded-full"
-          />
->>>>>>> 52e8d2e (responsive is done)
-=======
-          <img src={img} alt="Profile" className="w-8 h-8 rounded-full" />
->>>>>>> ee4eec9 (responsive)
         </div>
 
         {/* Mobile Search Bar */}
